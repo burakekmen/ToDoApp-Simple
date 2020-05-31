@@ -13,10 +13,12 @@
 		28F08EA62484206400E9B379 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F08EA42484206400E9B379 /* Main.storyboard */; };
 		28F08EA82484206900E9B379 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28F08EA72484206900E9B379 /* Assets.xcassets */; };
 		28F08EAB2484206900E9B379 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F08EA92484206900E9B379 /* LaunchScreen.storyboard */; };
+		28F08EB32484253000E9B379 /* EntryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F08EB22484253000E9B379 /* EntryVC.swift */; };
+		28F08EB52484253D00E9B379 /* TaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F08EB42484253D00E9B379 /* TaskVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		28F08E9B2484206400E9B379 /* ToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28F08E9B2484206400E9B379 /* To Do App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "To Do App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F08E9E2484206400E9B379 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28F08EA02484206400E9B379 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		28F08EA22484206400E9B379 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		28F08EA72484206900E9B379 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28F08EAA2484206900E9B379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28F08EAC2484206900E9B379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28F08EB22484253000E9B379 /* EntryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryVC.swift; sourceTree = "<group>"; };
+		28F08EB42484253D00E9B379 /* TaskVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +52,7 @@
 		28F08E9C2484206400E9B379 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				28F08E9B2484206400E9B379 /* ToDoApp.app */,
+				28F08E9B2484206400E9B379 /* To Do App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +67,8 @@
 				28F08EA72484206900E9B379 /* Assets.xcassets */,
 				28F08EA92484206900E9B379 /* LaunchScreen.storyboard */,
 				28F08EAC2484206900E9B379 /* Info.plist */,
+				28F08EB22484253000E9B379 /* EntryVC.swift */,
+				28F08EB42484253D00E9B379 /* TaskVC.swift */,
 			);
 			path = ToDoApp;
 			sourceTree = "<group>";
@@ -84,7 +90,7 @@
 			);
 			name = ToDoApp;
 			productName = ToDoApp;
-			productReference = 28F08E9B2484206400E9B379 /* ToDoApp.app */;
+			productReference = 28F08E9B2484206400E9B379 /* To Do App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -141,6 +147,8 @@
 				28F08EA32484206400E9B379 /* ViewController.swift in Sources */,
 				28F08E9F2484206400E9B379 /* AppDelegate.swift in Sources */,
 				28F08EA12484206400E9B379 /* SceneDelegate.swift in Sources */,
+				28F08EB52484253D00E9B379 /* TaskVC.swift in Sources */,
+				28F08EB32484253000E9B379 /* EntryVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +300,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.burakekmen.ToDoApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "To Do App";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -310,7 +318,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.burakekmen.ToDoApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "To Do App";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
